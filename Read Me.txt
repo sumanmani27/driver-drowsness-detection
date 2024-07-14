@@ -1,0 +1,33 @@
+Driver Drowsiness Detection
+---------------------------
+
+install python version 3.10.9 (Download here: "https://www.python.org/downloads/release/python-3109/")
+PIP should be latest version (check pip list)
+
+
+***** PIP list Imports: *****
+-----------------------------
+
+1. pip install opencv-python
+2. pip install numpy
+3. pip install cmake
+4. pip install dlib
+
+
+Necessary files
+---------------
+1. Required python file (IDLE Code.py)
+2. (shape_predictor_68_face_landmarks.dat) should be in same path where IDLE Code.py is located
+
+Eg: C:\Users\Saran\Desktop\Folder\Driver Drowsiness Detection using Python
+
+
+How this Project Works?
+-------------
+Computer Requirement | * Python Main Program File (.py) | * Camera Connected to the PC | 
+--------------------
+
+When the program started running, it access the pc's camera and detects the person eyes, whethers its open or close first
+Prints (Eyes Open in green) if the eyes remains open or still and prints (Partially closed in red) if it's closed or partially closed.
+If the person eyes is closed
+for continuous 1.5 seconds pc generates 2 beep sound 
